@@ -43,7 +43,7 @@ describe SDAPI do
             file_input_base64,                                                      #0 File Input
             true,                                                                   #1 Enable Roop
             "0",                                                                    #2 Comma separated face number(s)
-            "/home/pelatho/AI/sd_main/stable-diffusion-webui/models/roop/inswapper_128.onnx",    #3 Model
+            "PATH_TO_STABLE_DIFFUSION/models/roop/inswapper_128.onnx",    #3 Model
             "CodeFormer",                                                           #4 Restore Face: None; CodeFormer; GFPGAN
             1,                                                                      #5 Restore visibility value
             true,                                                                   #6 Restore face -> Upscale
